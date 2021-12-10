@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/red.css')}}">
+    <title>Red</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="intro_bg">
+        
+        <div class="intro_text">
+          <h1 style="text-align: center;"><br><br>Smart Mood light</h1>
+          <h4 class="contents1">원격으로 조종 가능한 무드등입니다</h4>
+        </div>
+      </div>
+      </div>
+      <!-- intro end-->
+      <ul class="amount">
+        <li>
+          <div>
+            <div class="contents1">빨강</div>
+            <div class="result">Red</div>
+            <form>
+              <a href="/red">
+                  <input type="button" value="Red">
+              </a>
+          </form>
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="contents1">파랑</div>
+            <div class="result">Blue</div>
+            <form>
+              <a href="/blue">
+                  <input type="button" value="Blue">
+              </a>
+          </form>
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="contents1">초록</div>
+            <div class="result">Green</div>
+            <form>
+              <a href="/green">
+                  <input type="button" value="Green">
+              </a>
+          </form>
+          </div>
+        </li>
+        <li>
+            <div>
+              <div class="contents1">흰색</div>
+              <div class="result">White</div>
+              <form>
+                <a href="/white">
+                    <input type="button" value="White">
+                </a>
+            </form>
+            </div>
+        </li>
+      </ul>
+      <!-- amount end -->
